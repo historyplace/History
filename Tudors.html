@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hover</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="test.js"></script>
 </head>
 <body style= "overflow-y: scroll; font-family: San-Serif; background-color: #f5f5f5; margin-top: 0; ">
-  <div style= "margin:auto; width:80%; background-color:#fff; margin-top:0;" >
+  <div style= "margin:auto; width:80%; max-width:900px; background-color:#fff; margin-top:0;" >
   <header style="position:sticky; top:0;">
     
     <nav>
@@ -41,7 +42,7 @@ The line back to Margaret Beauchamp - grandmother to King Henry VII
 
  </h2>
 
-  
+ <br> 
   
   
  
@@ -50,8 +51,16 @@ The line back to Margaret Beauchamp - grandmother to King Henry VII
            padding-left:20px;
              font-size:20px;
              font-weight:500px;
+             
 ">First Generation: Early 1400s Margaret Beauchamp m Oliver St John </h2>
- 
+ <header id="topH"class="" style="background-color:#f5f5f5;margin:auto; height: 40px;width: 95%;color:darkgray;text-align: center; font-family: sans-serif; " onclick="myFunction()"> 
+   <div  style="height:10px;"> </div>
+   <div id="nameH"> 
+     Click to display first generation details  </div>
+
+  </header>   
+    
+<div id="Gen1" class="hiddenH"> 
 <h4 style="
     font-family: sans-serif;
            padding-left:20px;
@@ -61,12 +70,36 @@ font-size:20px;
 "> 
 
   
-<iframe loading=T"lazy" src="Margaret.html" style="border-width:0px;  margin:auto;"  scrolling="yes"   height="450px" width="100%" allowfullscreen></iframe>
-<br>
+<iframe loading=T"lazy" src="Margaret.html" style="border-width:0px;  margin:auto;"  scrolling="no"  height="1100px"  width="100%" allowfullscreen></iframe>
+ 
+  <iframe loading=T"lazy" src="Oliver.html" style="border-width:0px;  margin:auto;"  scrolling="no"   height="600px" width="100%"  allowfullscreen></iframe>
+
+
+    
+  </div>
+ <header id="bottomH"class="hiddenH" style="background-color:#f5f5f5; margin:auto; height: 40px;width: 95%;color:darkgray;text-align: center; font-family: sans-serif; " onclick="myFunction()"> 
+    
+  <div  style="height:10px;"> </div>
+   <div > 
+     Click to hide first generation details  </div> 
+
+  </header>   
+   <br> 
+  <h2 style="
+    font-family: sans-serif;
+           padding-left:20px;
+             font-size:20px;
+             font-weight:500px;
+">Second Generation: Mid 1400s Oliver St. John m Elizabeth Scrope </h2>
   
-  <iframe loading=T"lazy" src="Oliver.html" style="border-width:0px;  margin:auto;"  scrolling="yes"   height="450px" width="100%" allowfullscreen></iframe>
+    
+<iframe loading=T"lazy" src="Oliver2.html" style="border-width:0px;  margin:auto;"  scrolling="yes"   height="450px" width="100%" allowfullscreen></iframe>
+
+<hr>
+ 
+  <iframe loading=T"lazy" src="ElizabethScrope.html" style="border-width:0px;  margin:auto;"  scrolling="yes"   height="450px" width="100%" allowfullscreen></iframe>
+
 <br>
   </div>
-  
 </body>
 </html>
